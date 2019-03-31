@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style media="screen">
+        table#t0, table#t0 td, table#t0 th{
+          border: 1px solid blue;
+        }
+        th{
+          text-align: right;
+        }
+
+        table#t0 tfoot{
+          background: yellow;
+        }
+        table{
+          width: 100%;
+          border-collapse: collapse;
+        }
+    </style>
+
+    <!--  -->
+    <title>Ejercicio2</title>
+  </head>
+  <body>
+
+    <h1>Listas en html</h1>
+
+    <h2>Listas sin orden</h2>
+    <ul>
+      <li type="square">Hola</li>
+      <li type="circle">Mundo</li>
+      <li type="disc">Hello</li>
+      <li>World</li>
+    </ul>
+
+    <h2>Lista ordenada</h2>
+    <ol>
+      <li>Hola</li>
+      <li>Mundo</li>
+      <li>Hello</li>
+      <li>World</li>
+    </ol>
+
+    <h2>Lista de definicion</h2>
+    <dl>
+      <dt><b>&clubs;concepto 1 </b></dt>
+      <dd>Lorem Ipsum is simply dummy text of the
+         printing and typesetting industry. Lorem Ipsum
+         has been the industry's standard dummy text ever since the 1500s,</dd>
+      <dt><b>&hearts;concepto 2 </b></dt>
+      <dd>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</dd>
+      <dt><b>&diam;concepto 3 </b></dt>
+      <dd>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</dd>
+    </dl>
+    <br>
+    <br>
+<h1>Tablas</h1>
+  <table border ="3" id="t0">
+    <caption>Tabla Ejemplo 1</caption>
+    <thead>
+      <tr>
+        <th>Columna1</th>
+        <th>Columna2</th>
+        <th>Columna3</th>
+      </tr>
+    </thead>
+    <tbody>
+
+
+    <tr>
+      <td>Valor1.1</td>
+      <td rowspan="2">Valor1.2</td>
+      <td>Valor1.3</td>
+    </tr>
+    <tr>
+      <td>Valor2.1</td>
+      <td >Valor2.3</td>
+    </tr>
+    <tr>
+      <td>Valor3.1</td>
+      <td >Valor3.3</td>
+      <td >Valor3.3</td>
+    </tr>
+    </tbody>
+    <tfoot>
+
+<tr>
+  <td>Pie1</td>
+  <td>Pie2</td>
+  <td>Pie3</td>
+</tr>
+</tfoot>
+  </table>
+
+  </body>
+</html>

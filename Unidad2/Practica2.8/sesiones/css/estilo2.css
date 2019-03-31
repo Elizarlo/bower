@@ -1,0 +1,104 @@
+*{
+	margin:0;
+	padding: 0;
+	overflow: auto;
+	box-sizing: border-box;
+	font-family: "Raleway";
+}
+
+.clearfix{
+	display: block;
+	content: "";
+	clear: both;
+}
+
+body{
+	background-color: gray;
+}
+
+form{
+	width: 500px;
+	margin:100px auto;
+	background-color: white;
+	box-shadow:  0 0 20px blue;
+	padding: 20px;
+}
+
+form .form_ctrl{
+	padding: 16px;
+	font-size: 16px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	display: block;
+	width: 100%;
+}
+
+form .from_ctrl:focus{
+	border: 20px solid green;
+
+}
+
+form .btn{
+	padding: 16px;
+	font-size: 16px;
+	margin-bottom: 20px;
+	border-radius: 3px;
+	float: right;
+	background-color: red	;
+	color:white	;
+	border: none;
+}
+
+form .btn:hover{
+	cursor: pointer;
+}
+
+div.contenedor{
+	width: 1000px;
+	margin: auto;
+	background-color: white;
+	padding: 20px;
+}
+
+header{
+	background-color: red;
+	padding: 16px;
+	display: flex;
+
+}
+
+div.derecha{
+	width: 15%;
+	float: right;
+}
+
+nav{
+	width: 85%;
+	float: left;
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav ul li{
+	display: inline;
+	padding: 0 5px;
+}
+
+nav	ul li a{
+	color:white;
+}
+
+nav ul li a:hover{
+	color:purple;
+}
+
+div.derecha{
+	float:right;
+}
+
+.alerta{
+	color: red;
+	text-decoration: bold;
+}

@@ -1,0 +1,35 @@
+#contenedor{
+  background-color: gray;
+  width: 1000px;
+  margin:auto;
+  display: flex;
+  flex-direction: column-reverse;
+
+}
+
+#contenedor div{
+    width: 100px;
+    height: 100px;
+
+}
+
+#contenedor em{
+  border: 1px solid red;
+  margin: 20px;
+}
+
+#contenedor h1,em{
+  border: 1px solid red;
+  margin: 20px;
+  display: inline;
+}
+#contenedor eluis{
+  border: 1px solid red;
+}
+#contenedor div:nth-child(even){
+  background-color: red;
+}
+
+#contenedor div:nth-child(odd){
+  background-color: blue;
+}

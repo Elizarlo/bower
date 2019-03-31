@@ -1,0 +1,187 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  overflow: auto;
+  box-sizing: border-box;
+  font-family: "Oswald",Arial,Courier;
+}
+
+.clearfix{
+	display: block;
+	content: "";
+	clear: both;
+}
+
+body{
+  background-color: gray;
+  font-size: 16px;
+  background="img/mountain.jpg";
+}
+
+.contenedor{
+  width:90%;
+  max-width: 500px;
+  margin: auto;
+}
+
+.contenedor2{
+	width: 1000px;
+	margin: auto;
+	background-color: white;
+	padding: 20px;
+}
+
+form{
+  width: 90%;
+  background-color: gray;
+  margin: 20px 0px;
+  padding: 15px;
+  box-shadow: 0 0 3px grey;
+  border-top: 4px solid blue;
+
+  overflow: auto;
+}
+
+form input[type="text"],
+form textarea{
+  border: 1px solid grey;
+  border-radius: 2px;
+  padding: 16px;
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+  color: black;
+}
+
+form input[type="text"]:focus,
+form textarea:focus{
+  border: 3px solid blue;
+  border-radius: 2px;
+  padding: 16px;
+  color:blue;
+}
+
+
+form input[type="submit"]{
+  padding: 15px;
+  background-color: orange;
+  color: white;
+  font-size: 16px;
+  border-radius: 2px;
+  border: none;
+  float: right;
+  cursor: pointer;
+}
+
+div.errores{
+  color:white;
+  padding: 16px;
+  background-color: red;
+  margin-bottom: 20px;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+div.exito{
+  color:white;
+  padding: 16px;
+  background-color: green;
+  margin-bottom: 20px;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+/* css 2 */
+form .form_ctrl{
+	padding: 16px;
+	font-size: 16px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	display: block;
+	width: 100%;
+}
+
+form .from_ctrl:focus{
+	border: 20px solid green;
+
+}
+
+form .btn{
+	padding: 16px;
+	font-size: 16px;
+	margin-bottom: 20px;
+	border-radius: 3px;
+	float: right;
+	background-color: red	;
+	color:white	;
+	border: none;
+}
+
+form .btn:hover{
+	cursor: pointer;
+}
+
+
+
+header{
+	background-color: red;
+	padding: 16px;
+	display: flex;
+
+}
+
+div.derecha{
+	width: 15%;
+	float: right;
+}
+
+nav{
+	width: 85%;
+	float: left;
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav ul li{
+	display: inline;
+	padding: 0 5px;
+}
+
+nav	ul li a{
+	color:white;
+}
+
+nav ul li a:hover{
+	color:purple;
+}
+
+div.derecha{
+	float:right;
+}
+
+.alerta{
+	color: red;
+	text-decoration: bold;
+}
+
+
+.enlace {
+  display:inline;
+  border:0;
+  padding:0;
+  margin:0;
+  text-decoration:underline;
+  background:none;
+  color:#000088;
+  font-family: arial, sans-serif;
+  font-size: 1em;
+  line-height:1em;
+}
+
+.enlace:hover {
+  text-decoration:none;
+  color:#0000cc;
+  cursor:pointer;
+}

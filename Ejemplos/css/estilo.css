@@ -1,0 +1,110 @@
+/*
+
+ul#lista > li {
+  border: 1px solid black;
+  width: 100px;
+  color: red;
+}
+
+ul#lista + p {
+  color:blue;
+  font-size: 40px;
+}
+
+#seccion1 p:nth-child(odd){
+  color: orange;
+  background-color: black;
+}
+
+#seccion1:hover{
+  background-color: red;
+}
+
+p:nth-child(even){
+  color: yellow!important;
+  background-color: black;
+}
+*/
+/*
+p#t1{
+  font-family: Arial,Helvetica,serif,'Times New Roman';
+  font-size: 100px;
+  color:red;
+  font-style: italic;
+  font-weight: bold;
+  font-variant: small-caps;
+  text-align: center;
+  text-decoration: underline;
+}
+
+p#t2{
+  text-decoration: line-through;
+  line-height: 40px;
+  text-indent: 200px;
+  letter-spacing: 5px;
+}*/
+
+
+body{
+  background-color: gray;
+}
+
+div#contenedor{
+  width: 1000px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header{
+  background-color: orange;
+}
+
+.seccion{
+  background-color: blue;
+}
+
+.articulo{
+  background-color: purple;
+}
+.pie{
+  text-align: center;
+
+}
+main{
+  width: 70%;
+  float: left;
+  overflow: auto;
+}
+
+.clearfix{
+  content: "";
+  clear: both;
+  display: table;
+}
+.lateral{
+  background-color: lightgreen;
+  width: 30%;
+  float:right;
+}
+
+
+nav{
+  background-color: black;
+}
+
+nav.menu ul{
+  list-style: none;
+}
+
+nav.menu ul li{
+  display: inline;
+}
+
+nav.menu ul li a{
+  color: white;
+}
+
+nav.menu ul li a:hover{
+  color:olive;
+}

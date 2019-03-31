@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: gray;
+}
+
+form{
+  width: 500px;
+  margin: auto;
+  background-color: white;
+  border-radius: 0 0 3px blue;
+  padding: 20px;
+}
+
+
+form .form_ctrl{
+  padding: 16px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  display: block;
+  width: 100%;
+}
+
+form .btn{
+  padding: 16px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  float: right;
+}
+nav{
+  background-color: orange;
+  padding: 16px;
+}
+
+nav ul{
+  list-style: none;
+}
+
+nav ul li{
+  display: inline;
+}
+
+nav ul li a{
+  color: white;
+}
+
+nav ul li a:hover{
+  color: purple;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Formularioo</title>
+  </head>
+  <body>
+    <form>
+      <fieldset><legend>Cajas de texto basicas</legend>
+      <p>
+        <label for="txtNombre"> Nombre:</label>
+        <input type="text" id="txtNombre" name="Nombre" value=""
+        placeholder="Escribe Nombre" required size="25" autocomplete="off">
+        <br>
+        <label for="txtCorreo"> Correo:</label>
+        <input type="email" id="txtCorreo" name="Correo" value=""
+        placeholder="Escribe usuario@dominio" required size="25" autocomplete="off">
+        <br>
+        <label for="txtCon"> Contraseña:</label>
+        <input type="password" id="txtCon" name="Contraseña" value=""
+        placeholder="Escribe Contraseña" required size="25" autocomplete="off">
+        <br>
+        <label for="txtTel"> Telefono:</label>
+        <input type="tel" id="txtTel" name="Telefono" value=""
+        placeholder="Escribe Telefono" required size="25" autocomplete="off">
+        <br>
+        <label for="txtWeb"> Tu sitio web:</label>
+        <input type="url" id="txtWeb" name="Web" value=""
+        placeholder="Escribe https://www.ejemplo.extension" required size="25" autocomplete="off">
+        <br>
+        <label for="txtHidden"> Texto Oculto:</label>
+        <input type="hidden" id="txtHidden" name="Hidden" value=""
+        placeholder="Escribe" required size="25" autocomplete="off">
+      </p>
+      </fieldset>
+
+      <fieldset>
+        <legend>opciones multiples</legend>
+        <p>
+          <label for="op1">Sabor: </label>
+          <input type="radio" name="Sabor" value="op1" id="op1">Vainilla
+          <input type="radio" name="Sabor" value="op2" id="op1">Fresa
+          <input type="radio" name="Sabor" value="op3" id="op1" checked>Chocolatte
+        </p>
+        <p>
+          <label>Pasatiempos: </label>
+          <input type="checkbox" name="pasa" value="pasa1" id="op1">Vainilla
+          <input type="checkbox" name="pasa" value="pasa2" id="op1">Fresa
+          <input type="checkbox" name="pasa" value="pasa3" id="op1" checked>Chocolatte
+        </p>
+
+        <label for="">Sabor:</label>
+        <select class="" name="Sabor">
+          <option value="op1">Vainilla</option>
+          <option value="op2">Fresa</option>
+          <option value="op3">Chocolatte</option>
+        </select>
+        <p>
+          <label>Datalist Sabor</label>
+          <input name="Lista Valores" list="mis_opciones" value="">
+          <datalist id="mis_opciones">
+            <option value="Vainilla">
+            <option value="Fresa">
+            <option value="Chocolatte">
+          </datalist>
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Otros Controles</legend>
+        <p>
+          <label>Fecha:</label>
+          <input type="date" name="fecha" value="">
+        </p>
+        <p>
+          <label> Fecha con hora:</label>
+          <input type="datetime-local" name="fecha_hora" value="">
+        </p>
+        <p>
+          <label> Hora:</label>
+          <input type="time" name="hora" value="">
+        </p>
+        <p>
+          <label> Semana:</label>
+          <input type="week" name="semana" value="">
+        </p>
+        <p>
+          <label> Edad:</label>
+          <input type="number" name="" value="" min="16" max="30">
+        </p>
+        <p>
+          <label>Nivel dominio inglés:</label>
+          <input type="range" name="" value="" min="0" max="80">
+        </p>
+        <p>
+          <label>Color:</label>
+          <input type="color" name="color" value="#00ffff">
+        </p>
+      </fieldset>
+
+      <p>
+        <input type="submit" name="" value="Enviar">
+        <input type="reset" name="" value="Borrar">
+      </p>
+
+      <fieldset>
+        <h2>Video</h2>
+        <video src="video.mp4"
+         poster="posterimage.jpg" width="700"
+         controls
+         preload="meta-data"
+         autoplay
+         muted>
+         <p>Tu navegador no soporta video</p>
+        </video>
+      </fieldset>
+    </form>
+  </body>
+</html>

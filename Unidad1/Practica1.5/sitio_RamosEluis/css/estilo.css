@@ -1,0 +1,91 @@
+*{
+	padding: 10px;
+	box-sizing: border-box
+}
+
+div#contenedor{
+	width: 1000px;
+	/*background-color: dodgerblue;*/
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header{
+	background-color: black;
+}
+.blanca{
+	color:white;
+}
+.negra{
+	color:black;
+}
+.articulo{
+	background-color: #05F9F2;
+}
+
+.lateral{
+	background-color: black;
+	color:white;
+	width: 30%;
+	float: right;
+	padding: 10px !important;
+}
+
+.footer{
+	background-color: darkkhaki;
+	text-align: center;
+}
+
+main{
+	width: 70%;
+	float: left;
+	overflow: auto;
+	background-color: white;
+}
+
+
+
+nav{
+	background-color: lightseagreen;
+
+}
+
+
+nav.menu ul li{
+	display: inline;
+}
+
+nav.menu ul li a{
+	color: white;
+}
+
+nav.menu ul li a:hover{
+	color: olive;
+}
+
+p{
+	font: caption;
+	color: black;
+}
+
+.clearfix{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.avatar {
+    /* cambia estos dos valores para definir el tamaño de tu círculo */
+    height: 200px;
+    width: 200px;
+    /* los siguientes valores son independientes del tamaño del círculo */
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 10%;
+    background-size: 100% auto;
+}
+
+.letra{
+	size:10;
+	color: white;
+}

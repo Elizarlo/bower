@@ -1,0 +1,77 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Oswald",Arial,Courier;
+}
+
+body{
+  background-color: white;
+  font-size: 16px;
+}
+
+.contenedor{
+  width:90%;
+  max-width: 500px;
+  margin: auto;
+}
+
+form{
+  width: 90%;
+  background-color: gray;
+  margin: 20px 0px;
+  padding: 15px;
+  box-shadow: 0 0 3px grey;
+  border-top: 4px solid blue;
+
+  overflow: auto;
+}
+
+form input[type="text"],
+form textarea{
+  border: 1px solid grey;
+  border-radius: 2px;
+  padding: 16px;
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+  color: black;
+}
+
+form input[type="text"]:focus,
+form textarea:focus{
+  border: 3px solid blue;
+  border-radius: 2px;
+  padding: 16px;
+  color:blue;
+}
+
+
+form input[type="submit"]{
+  padding: 15px;
+  background-color: orange;
+  color: white;
+  font-size: 16px;
+  border-radius: 2px;
+  border: none;
+  float: right;
+  cursor: pointer;
+}
+
+div.errores{
+  color:white;
+  padding: 16px;
+  background-color: red;
+  margin-bottom: 20px;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+div.exito{
+  color:white;
+  padding: 16px;
+  background-color: green;
+  margin-bottom: 20px;
+  font-size: 14px;
+  border-radius: 3px;
+}
